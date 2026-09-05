@@ -18,6 +18,7 @@ sync/
 installation.yaml
 user.yaml
 *.custom.yaml
+*.custom.dict.yaml
 !others/**/*.custom.yaml
 
 others/script/scel2txt/out/*
@@ -31,3 +32,7 @@ rime_deployer
 rime_patch
 
 *.zip
+rime_frost_kenlm.schema.yaml
+others/知频_当前词库缺失_2字.txt
+others/知频_当前词库缺失_3字.txt
+others/知频_当前词库缺失_4字及以上.txt

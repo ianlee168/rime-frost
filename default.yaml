@@ -3,7 +3,7 @@
 
 
 # 要比共享目录的同名文件的 config_version 大才可以生效
-config_version: '0.40'
+config_version: '0.50'
 
 
 # 方案列表
@@ -14,8 +14,12 @@ schema_list:
   - schema: rime_frost_double_pinyin_mspy     # 微软双拼
   - schema: rime_frost_double_pinyin_sogou    # 搜狗双拼
   - schema: rime_frost_double_pinyin_flypy    # 小鹤双拼
+  - schema: rime_frost_t9                     # 仓·九键拼音
   # - schema: rime_frost_double_pinyin_abc      # 智能 ABC 双拼
   # - schema: rime_frost_double_pinyin_ziguang  # 紫光双拼
+
+  - schema: rime_frost_wubi86                 # 白霜五笔86
+  - schema: rime_frost_moqi_single_xh         # 白霜|墨奇音形·鹤拼
 
 
 # 菜单
@@ -39,9 +43,9 @@ switcher:
     - chinese_english
     - emoji
     - chaifen
-    - aux_code
     - mars
     - ascii_punct
+    - pin_cand
   fold_options: true            # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
   abbreviate_options: true      # 折叠时是否缩写选项
   option_list_separator: ' / '  # 折叠时的选项分隔符
